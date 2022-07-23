@@ -84,4 +84,4 @@ program.parse()
 
 const options = program.opts()
 
-start({ secret: options.secret, isRanked: options.is_ranked, backendUrl: options.backend_url })
+start({ secret: options.secret, isRanked: options.ranked, backendUrl: options.backend_url })
